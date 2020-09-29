@@ -57,9 +57,6 @@ document.addEventListener("keydown", (event) => {
       yPos = 0;
     }
   }
-  if (event.key === "ArrowDown") {
-    yPos += 10;
-  }
 });
 
 function draw() {
